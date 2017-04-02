@@ -24,7 +24,7 @@ exports.handler = function(event, context) {
   var ec2 = new aws.EC2({region: event.ResourceProperties.Region});
   var describeImagesParams = {
     Filters: [{ Name: 'name', Values: [archToAMINamePattern[event.ResourceProperties.Architecture]]}],
-    Owners: [event.ResourceProperties.Architecture == 'HVMG2' ? '679593333241' : 'amazon']
+    Owners: [event.ResourceProperties.Architecture == 'HVMG2' ? '355319087085' : 'amazon']
   };
 
   console.log('Calling DescribeImages...');
