@@ -71,8 +71,8 @@ case $AWS_DEFAULT_REGION in
 esac
 
 # System
-export SYSTEM_CODE=irops
-export SYSTEM_NAME="IROPS"
+export SYSTEM_CODE=woke
+export SYSTEM_NAME="WOKE"
 
 # Environment
 export ENVIRONMENT_CODE=s
