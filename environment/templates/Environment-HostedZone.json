@@ -36,7 +36,7 @@
       "Type" : "String",
       "MinLength" : 7,
       "MaxLength" : 64,
-      "Default" : "demo.iropshub.com",
+      "Default" : "demo.woke.mobi",
       "AllowedPattern" : "^((?!-)[a-z0-9-]{1,63}(?<!-)\\.)+[a-z]{2,6}$",
       "ConstraintDescription" : "must be a valid domain name and contain only lower-case letters, numbers, dashes and periods."
     }

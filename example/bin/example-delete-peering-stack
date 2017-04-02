@@ -30,7 +30,7 @@ interactive=1
 speed=100
 verbose=0
 region=${AWS_DEFAULT_REGION#*@}
-account=${AWS_ACCOUNT_NAME:-irops}
+account=${AWS_ACCOUNT_NAME:-themesoft}
 user=${AWS_USER_NAME:-administrator}
 
 

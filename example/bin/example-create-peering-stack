@@ -31,9 +31,9 @@ speed=100
 verbose=0
 setup=0
 keypair=example
-domain=example.iropshub.com
+domain=example.woke.mobi
 region=${AWS_DEFAULT_REGION#*@}
-account=${AWS_ACCOUNT_NAME:-irops}
+account=${AWS_ACCOUNT_NAME:-themesoft}
 user=${AWS_USER_NAME:-administrator}
 ssh_user=ec2-user
 

@@ -205,9 +205,9 @@
               "s3:ListBucket"
             ],
             "Resource" : [
-              "arn:aws:s3:::users-us-east-1-irops",
-              "arn:aws:s3:::users-us-east-2-irops",
-              "arn:aws:s3:::users-us-west-2-irops"
+              "arn:aws:s3:::users-us-east-1-woke",
+              "arn:aws:s3:::users-us-east-2-woke",
+              "arn:aws:s3:::users-us-west-2-woke"
             ],
             "Condition" : {
               "StringEquals" : { "s3:prefix" : [ "" ], "s3:delimiter" : [ "/" ]}
@@ -220,9 +220,9 @@
               "s3:ListBucket"
             ],
             "Resource" : [
-              "arn:aws:s3:::users-us-east-1-irops",
-              "arn:aws:s3:::users-us-east-2-irops",
-              "arn:aws:s3:::users-us-west-2-irops"
+              "arn:aws:s3:::users-us-east-1-woke",
+              "arn:aws:s3:::users-us-east-2-woke",
+              "arn:aws:s3:::users-us-west-2-woke"
             ],
             "Condition" : {
               "StringLike" : { "s3:prefix" : [ "${aws:username}/*" ]}
@@ -235,9 +235,9 @@
               "s3:*"
             ],
             "Resource" : [
-              "arn:aws:s3:::users-us-east-1-irops/${aws:username}/*",
-              "arn:aws:s3:::users-us-east-2-irops/${aws:username}/*",
-              "arn:aws:s3:::users-us-west-2-irops/${aws:username}/*"
+              "arn:aws:s3:::users-us-east-1-woke/${aws:username}/*",
+              "arn:aws:s3:::users-us-east-2-woke/${aws:username}/*",
+              "arn:aws:s3:::users-us-west-2-woke/${aws:username}/*"
             ]
           }]
         }
